@@ -1,0 +1,25 @@
+body {
+    background-color: #212f45;
+}
+
+.hero {
+    background-color: #006466;
+    padding: 0px;
+}
+
+#greeting {
+    color: #272640;
+}
+
+p {
+    color: #212f45;
+}
+
+.btn {
+    color: #006466;
+}
+
+.btn:hover {
+    color: #3e1f47;
+    background-color: #006466;
+}

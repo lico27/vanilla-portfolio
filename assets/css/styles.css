@@ -1,25 +1,27 @@
 body {
-    background-color: #212f45;
+    background-color: #838995;
 }
 
 .hero {
-    background-color: #006466;
+    background-color: #272E36;
     padding: 0px;
 }
 
 #greeting {
-    color: #272640;
+    color: #5AD767;
+
 }
 
 p {
-    color: #212f45;
+    color: #DBFCE7;
 }
 
 .btn {
-    color: #006466;
+    color: #5AD767;
+    background-color: #424851;
 }
 
 .btn:hover {
-    color: #3e1f47;
-    background-color: #006466;
+    color: #5AD767;
+    background-color: #272E36;
 }

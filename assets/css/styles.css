@@ -16,12 +16,10 @@ p {
     color: #DBFCE7;
 }
 
-.btn {
+.socials {
     color: #DBFCE7;
-    background-color: #424851;
 }
 
-.btn:hover {
+.socials:hover {
     color: #5AD767;
-    background-color: #272E36;
 }

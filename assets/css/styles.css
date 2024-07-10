@@ -1,10 +1,11 @@
 body {
-    background-color: #838995;
+    background-color: #272E36;
 }
 
 .hero {
-    background-color: #272E36;
-    padding: 0px;
+    background-image: url("/assets/img/head.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #greeting {
@@ -16,10 +17,14 @@ p {
     color: #DBFCE7;
 }
 
-.socials {
+a {
     color: #DBFCE7;
 }
 
-.socials:hover {
+a:hover {
     color: #5AD767;
+}
+
+#credits {
+    background-color: #838995;
 }

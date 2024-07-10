@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: #272E36;
 }
@@ -6,6 +10,8 @@ body {
     background-image: url("/assets/img/head.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 40vh;
+
 }
 
 #greeting {

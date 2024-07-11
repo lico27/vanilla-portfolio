@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -20,6 +20,17 @@ body {
 
 }
 
+section {
+    border: 1px solid #838995;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#portfolio {
+    margin: 50px auto;
+}
+
 p {
     color: #838995;
 }
@@ -36,6 +47,7 @@ i {
     color: #DBFCE7;
 }
 
-#credits {
-    background-color: #838995;
+footer {
+    background-color: rgb(131,137,149, 0.2);
+    margin-top: 50px;
 }

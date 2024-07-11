@@ -3,14 +3,16 @@
 }
 
 body {
-    background-color: #272E36;
+    background-color: #000000;
 }
 
-.hero {
-    background-image: url("/assets/img/head.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
+#hero {
+    width: 100%;
+    opacity: 30%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 #greeting {
@@ -22,12 +24,16 @@ p {
     color: #838995;
 }
 
-a {
-    color: #838995;
+.nav-link, a {
+    color: #DBFCE7;
 }
 
-a:hover {
+.nav-link:hover, a:hover, i:hover {
     color: #5AD767;
+}
+
+i {
+    color: #DBFCE7;
 }
 
 #credits {

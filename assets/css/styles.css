@@ -11,7 +11,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
-
 }
 
 #greeting {
@@ -20,11 +19,11 @@ body {
 }
 
 p {
-    color: #DBFCE7;
+    color: #838995;
 }
 
 a {
-    color: #DBFCE7;
+    color: #838995;
 }
 
 a:hover {

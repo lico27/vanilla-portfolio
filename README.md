@@ -1,5 +1,8 @@
 # liamco.io
 
+Building my personal portfolio website 
+
 https://liamco.io
 
-https://lico27.github.io/liamco.io
+## Badges
+![Static Badge](https://img.shields.io/badge/project-in_progress-blue)

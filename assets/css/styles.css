@@ -6,6 +6,10 @@ body {
     background-color: #000000;
 }
 
+.shadow-5 {
+    color: #DBFCE7;
+}
+
 #hero {
     width: 100%;
     opacity: 30%;
@@ -17,18 +21,6 @@ body {
 
 #greeting {
     color: #5AD767;
-
-}
-
-section {
-    border: 1px solid #838995;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#portfolio {
-    margin: 50px auto;
 }
 
 p {
@@ -36,7 +28,7 @@ p {
 }
 
 .nav-link, a {
-    color: #DBFCE7;
+    color: rgb(219, 252, 231);
 }
 
 .nav-link:hover, a:hover, i:hover {
@@ -47,7 +39,21 @@ i {
     color: #DBFCE7;
 }
 
-footer {
-    background-color: rgb(131,137,149, 0.2);
-    margin-top: 50px;
+fieldset {
+    border: 1px solid #fff;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact {
+    margin: 0 auto;
+}
+
+#socials {
+    margin-bottom: 20px;
+    width: 50%;
 }

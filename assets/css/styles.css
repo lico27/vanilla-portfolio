@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -23,6 +23,11 @@ body {
     color: #5AD767;
 }
 
+
+h2 {
+    color: #272e36;
+}
+
 p {
     color: #838995;
 }
@@ -39,10 +44,6 @@ i {
     color: #DBFCE7;
 }
 
-fieldset {
-    border: 1px solid #fff;
-}
-
 section {
     display: flex;
     align-items: center;
@@ -50,10 +51,9 @@ section {
 }
 
 #contact {
-    margin: 0 auto;
-}
-
-#socials {
-    margin-bottom: 20px;
-    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(131, 137, 149, 0.7);
+    height: 30vh;
 }

@@ -52,7 +52,7 @@ section {
 
 #contact {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     background-color: rgb(131, 137, 149, 0.7);
     height: 30vh;

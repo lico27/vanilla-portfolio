@@ -60,11 +60,25 @@ section {
     background-color: rgb(131, 137, 149, 0.7);
 }
 
+
 #cv-h2 {
     color: #6FB07E;
+    width: 60%;
 }
+
+#cv-btn, #cv-icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .btn {
     background-color: #272e36 !important;
     color: #5AD767 !important;
+}
+
+.btn:hover {
+    background-color: #6FB07E !important;
 }

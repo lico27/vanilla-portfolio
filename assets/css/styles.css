@@ -29,7 +29,7 @@ h2 {
     color: #272e36;
 }
 
-p {
+p, i:hover {
     color: #838995;
 }
 
@@ -37,12 +37,12 @@ p {
     color: #6FB07E;
 }
 
-.nav-link:hover, a:hover, i:hover {
+.nav-link:hover, a:hover {
     color: #5AD767;
 }
 
 i {
-    color: #dbfce7;
+    color: #6FB07E;
 }
 
 section {
@@ -50,7 +50,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+}
+
+#cv {
+    height: 10vh;
 }
 
 #contact {
@@ -58,25 +61,14 @@ section {
     justify-content: center;
     align-items: center;
     background-color: rgb(131, 137, 149, 0.7);
+    height: 25vh;
 }
-
-
-#cv-h2 {
-    color: #6FB07E;
-    width: 60%;
-}
-
-#cv-btn, #cv-icon {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .btn {
-    background-color: #272e36 !important;
+    background-color: rgb(39, 46, 54, 0.7) !important;
     color: #5AD767 !important;
+    font-size: 1rem !important;
+    border: 1px rgb(90, 215, 103, 0.5) solid !important;
 }
 
 .btn:hover {

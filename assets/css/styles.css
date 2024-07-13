@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    /* border: #fff solid 1px; */
 }
 
 body {
@@ -46,8 +47,10 @@ i {
 
 section {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 30vh;
 }
 
 #contact {
@@ -55,5 +58,12 @@ section {
     justify-content: center;
     align-items: center;
     background-color: rgb(131, 137, 149, 0.7);
-    height: 30vh;
+}
+
+#cv-h2 {
+    color: #DBFCE7;
+}
+
+.btn {
+    background-color: #5AD767 !important;
 }

@@ -24,12 +24,7 @@ body {
     color: #5AD767;
 }
 
-
-h2 {
-    color: #272e36;
-}
-
-p, i:hover {
+i:hover, p, h2 {
     color: #838995;
 }
 
@@ -56,12 +51,12 @@ section {
     height: 10vh;
 }
 
-#contact {
+#contact, #bio {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(131, 137, 149, 0.7);
-    height: 25vh;
+    background-color: rgb(131, 137, 149, 0.4);
+    padding: 2rem 0 2rem 0;
 }
 
 .btn {

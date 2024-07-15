@@ -47,12 +47,16 @@ section {
     flex-direction: column;
 }
 
-#bio-cards {
-    flex-direction: row !important;
-}
-
 #cv {
     height: 10vh;
+}
+
+.portfolio-row {
+    justify-content: center;
+}
+
+.card {
+    background-color: none !important;
 }
 
 #contact, #bio {

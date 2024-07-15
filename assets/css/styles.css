@@ -47,6 +47,11 @@ section {
     flex-direction: column;
 }
 
+#bio-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #cv {
     height: 10vh;
 }

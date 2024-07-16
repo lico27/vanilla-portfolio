@@ -24,7 +24,7 @@ body {
     color: #5AD767;
 }
 
-i:hover, p, h2 {
+.socials:hover, p, h2, .card-subtitle {
     color: #838995;
 }
 
@@ -36,7 +36,7 @@ i:hover, p, h2 {
     color: #5AD767;
 }
 
-i {
+.socials, .fa-brands {
     color: #6FB07E;
 }
 
@@ -62,6 +62,10 @@ section {
 
 .card {
     background-color: none !important;
+}
+
+.card-title {
+    color: #DBFCE7 !important;
 }
 
 #contact, #bio {

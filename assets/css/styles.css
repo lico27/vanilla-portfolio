@@ -64,6 +64,12 @@ section {
     background-color: none !important;
 }
 
+.card-img {
+    object-fit: cover;
+    object-position: 0% 0%;
+    height: 30vh;
+}
+
 .card-title {
     color: #DBFCE7 !important;
 }

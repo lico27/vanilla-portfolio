@@ -26,6 +26,11 @@ body {
     color: #838995;
 }
 
+h4 {
+    color: #838995;
+    font-weight: normal;
+}
+
 .mask-custom {
     backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, .15);
@@ -73,6 +78,11 @@ section {
     height: 10vh;
 }
 
+#certs {
+    border-top: solid rgb(131, 137, 149,0.3) 1px;
+    border-bottom: solid rgb(131, 137, 149,0.3) 1px;
+}
+
 .codecademy {
     background-image: url(/assets/img/codecademy.png);
     background-position: 0% 50%;
@@ -90,6 +100,8 @@ section {
     align-items: center;
     text-align: center;
     color: #DBFCE7;
+    text-transform: uppercase;
+    background-color: rgb(39, 46, 54, 0.7);
 }
 
 .codecademy a, .udemy a {
@@ -97,7 +109,7 @@ section {
 }
 
 .codecademy a:hover, .udemy a:hover {
-    color: #5AD767;
+    color: #DBFCE7 !important;
 }
 
 .portfolio-row {
@@ -130,9 +142,9 @@ section {
     background-color: rgb(39, 46, 54, 0.7) !important;
     color: #5AD767 !important;
     font-size: 1rem !important;
-    border: 1px rgb(90, 215, 103, 0.5) solid !important;
+    border: none !important;
 }
 
 .btn:hover {
-    background-color: #6FB07E !important;
+    background-color: rgb(111, 176, 126, 0.5) !important;
 }

@@ -57,6 +57,22 @@ section {
     height: 10vh;
 }
 
+.codecademy {
+    background-image: url(/assets/img/codecademy.png);
+    background-size: cover;
+    background-position: 0% 50%;
+    /* border: #6FB07E solid 1px; */
+    border-radius: 8px;
+}
+
+.codecademy a {
+    color: #DBFCE7;
+}
+
+.codecademy a:hover {
+    color: #5AD767;
+}
+
 .portfolio-row {
     justify-content: center;
 }

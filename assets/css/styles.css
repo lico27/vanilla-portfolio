@@ -51,6 +51,15 @@ section {
 #bio-text {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.1rem;
+}
+
+#sig {
+    font-family: 'Shadows Into Light', serif;
+    text-align: left;
+    color: #5AD767;
+    font-style: italic;
+    letter-spacing: 0.2cap;
 }
 
 #cv {

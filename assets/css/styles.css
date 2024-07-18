@@ -16,8 +16,10 @@ body {
     z-index: -1;
 }
 
-#greeting {
+#header1 {
     color: #5AD767;
+    align-items: center;
+    flex-direction: column;
 }
 
 .socials:hover, p, h2, .card-subtitle {
@@ -39,6 +41,11 @@ body {
 
 .socials, .fa-brands {
     color: #6FB07E;
+}
+
+#pfp {
+    border-radius: 50%;
+    max-width: 200px;
 }
 
 section {

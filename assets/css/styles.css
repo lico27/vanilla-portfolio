@@ -75,19 +75,28 @@ section {
 
 .codecademy {
     background-image: url(/assets/img/codecademy.png);
-    background-size: cover;
     background-position: 0% 50%;
+}
+
+.udemy {
+    background-image: url(/assets/img/udemy.png);
+    background-position: 0% 30%;
+}
+
+.codecademy, .udemy {
+    background-size: cover;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.codecademy a {
     color: #DBFCE7;
 }
 
-.codecademy a:hover {
+.codecademy a, .udemy a {
+    color: #DBFCE7;
+}
+
+.codecademy a:hover, .udemy a:hover {
     color: #5AD767;
 }
 

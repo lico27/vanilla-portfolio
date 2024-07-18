@@ -61,8 +61,10 @@ section {
     background-image: url(/assets/img/codecademy.png);
     background-size: cover;
     background-position: 0% 50%;
-    /* border: #6FB07E solid 1px; */
     border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .codecademy a {

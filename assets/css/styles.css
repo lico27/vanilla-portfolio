@@ -22,6 +22,17 @@ body {
     flex-direction: column;
 }
 
+.btn {
+    background-color: rgb(39, 46, 54, 0.7) !important;
+    color: #5AD767 !important;
+    font-size: 1rem !important;
+    border: none !important;
+}
+
+.btn:hover {
+    background-color: rgb(111, 176, 126, 0.5) !important;
+}
+
 .socials:hover, p, h2, .card-subtitle {
     color: #838995;
 }
@@ -99,17 +110,10 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #DBFCE7;
+    color: #DBFCE7 !important;
     text-transform: uppercase;
     background-color: rgb(39, 46, 54, 0.7);
-}
-
-.codecademy a, .udemy a {
-    color: #DBFCE7;
-}
-
-.codecademy a:hover, .udemy a:hover {
-    color: #DBFCE7 !important;
+    text-transform: none;
 }
 
 .portfolio-row {
@@ -136,15 +140,4 @@ section {
     align-items: center;
     background-color: rgb(131, 137, 149, 0.4);
     padding: 2rem 0 2rem 0;
-}
-
-.btn {
-    background-color: rgb(39, 46, 54, 0.7) !important;
-    color: #5AD767 !important;
-    font-size: 1rem !important;
-    border: none !important;
-}
-
-.btn:hover {
-    background-color: rgb(111, 176, 126, 0.5) !important;
 }

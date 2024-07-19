@@ -47,9 +47,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#bio">Bio</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#cv">CV</a>
-                </li>           
+                </li>            -->
                 <li class="nav-item">
                   <a class="nav-link" href="#certs">Certifications</a>
                 </li>                
@@ -82,20 +82,22 @@
             <h3 id="sig" class="col-8 col-md-6">
               Liam
             </h3>
+
+        <!-- CV section -->
+          <section id="cv" class="col-12 p-1">
+            <div id="cv-btn">
+              <a href="./assets/docs/Liam Cottrell - CV2024.pdf" target="_blank">
+              <button type="button" class="btn btn-primary shadow-5" data-mdb-ripple-init>View my CV here </button>
+            </a>
+            </div>
+          </section>
+
       </section>
 
-  <!-- CV section -->
-  <section id="cv" class="col-12 my-4 py-5">
-    <div id="cv-btn">
-      <a href="./assets/docs/Liam Cottrell - CV2024.pdf" target="_blank">
-      <button type="button" class="btn btn-primary shadow-5" data-mdb-ripple-init>View my CV here </button>
-     </a>
-    </div>
-  </section>
-
     <!-- Certifications section -->
-  <section id="certs" class="col-12 my-4 py-5">
-    <h2 class="display-5">Certifications</h2>
+  <section id="certs" class="col-12 py-5">
+    <div class="box glowing col-12">
+    <h2 class="display-5 text-center mt-5">Certifications</h2>
 
     <h4 class="pt-3 col-12 text-center">Completed</h4>
       <div class="row col-12 d-flex cert-row p-3">
@@ -104,18 +106,20 @@
         <a href="https://www.codecademy.com/profiles/lico27/certificates/5b55e668646caa552f8e4d1d" target="_blank" class="codecademy btn d-flex col-4 col-md-3 col-lg-2 p-3 m-3"><div>Code Foundations</div></a>
       </div>
 
+  <div class="mb-5">
     <h4 class="pt-3 col-12 text-center">In progress</h4>
-      <div class="row col-12 d-flex cert-row p-3">
-         <div class="udemy d-flex col-6 col-md-3 col-lg-2 p-3 m-3">Math Masterclass for Data Science</div>
-         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 m-3">Career Path: Data Scientist (NLP Specialist)</div>
-         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 m-3">Learn Python 3</div>
-         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 m-3">Learn SQL</div>
+      <div class="row col-12 d-flex cert-row p-3 mb-5">
+         <div class="udemy d-flex col-6 col-md-3 col-lg-2 p-3 mx-3 mt-3">Math Masterclass for Data Science</div>
+         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 mx-3 mt-3">Career Path: Data Scientist (NLP Specialist)</div>
+         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 mx-3 mt-3">Learn Python 3</div>
+         <div class="codecademy d-flex col-6 col-md-3 col-lg-2 p-3 mx-3 mt-3">Learn SQL</div>
       </div>
-
+    </div>
+  </div>
   </section>
 
   <!-- Portfolio section  -->
-  <section id="portfolio" class="col-12 my-4 py-5">
+  <section id="portfolio" class="col-12 mb-4 pt-5">
     <h2 class="display-5">Recent projects</h2>
     <h4 class="pt-3 col-12 text-center">Completed</h4>
     <div class="row col-12 d-flex portfolio-row mt-3 p-3">

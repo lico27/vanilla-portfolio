@@ -89,11 +89,6 @@ section {
     height: 10vh;
 }
 
-#certs {
-    border-top: solid rgb(131, 137, 149,0.3) 1px;
-    border-bottom: solid rgb(131, 137, 149,0.3) 1px;
-}
-
 #certs .btn {
     border: none;
 }
@@ -148,3 +143,36 @@ section {
     background-color: rgb(131, 137, 149, 0.4);
     padding: 2rem 0 2rem 0;
 }
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+  }
+  
+  .glowing::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    background: linear-gradient(45deg, #5AD767, #838995, #444444, #6FB07E);
+    background-size: 400%;
+    width: calc(100%);
+    height: calc(100% + 2px);
+    z-index: -1;
+    animation: glower 20s linear infinite;
+  }
+  
+  @keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }

@@ -103,7 +103,12 @@ section {
     background-position: 0% 30%;
 }
 
-.codecademy, .udemy {
+.freecodecamp {
+    background-image: url(/assets/img/freecodecamp.png);
+    background-position: 0% 30%;
+}
+
+.codecademy, .udemy, .freecodecamp {
     background-size: cover;
     border-radius: 8px;
     justify-content: center;

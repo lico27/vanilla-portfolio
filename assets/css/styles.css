@@ -157,6 +157,10 @@ section {
     background-color: #838995;
 }
 
+.card-img-left {
+    object-position: 50% 50%;
+}
+
 .card-title, .cert-text {
     color: #DBFCE7 !important;
 }

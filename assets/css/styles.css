@@ -1,6 +1,10 @@
 * {
     font-family: 'Roboto', sans-serif;
     /* border: #fff solid 1px; */
+    --brand-palette1: #5AD767;
+    --brand-palette2: #838995;
+    --brand-palette3: #6FB07E;
+    --brand-palette4: #DBFCE7;
 }
 
 body {
@@ -17,29 +21,29 @@ body {
 }
 
 #header1 {
-    color: #5AD767;
+    color: var(--brand-palette1);
     align-items: center;
     flex-direction: column;
 }
 
 .btn {
-    background-color: rgb(39, 46, 54, 0.7) !important;
-    color: #5AD767 !important;
+    background-color: rgba(39, 46, 54, 0.7) !important;
+    color: var(--brand-palette1) !important;
     font-size: 1rem !important;
-    border: 1px solid #5AD767;
+    border: 1px solid var(--brand-palette1);
 }
 
 .btn:hover {
     background-color: rgb(111, 176, 126, 0.5) !important;
-    border: 1px solid #5AD767;
+    border: 1px solid var(--brand-palette1);
 } 
 
 .socials:hover, p, h2, .card-subtitle {
-    color: #838995;
+    color: var(--brand-palette2);
 }
 
 h4 {
-    color: #838995;
+    color: var(--brand-palette2);
     font-weight: normal;
 }
 
@@ -58,15 +62,15 @@ h4 {
 }
 
 .nav-link, a {
-    color: #6FB07E;
+    color: var(--brand-palette3);
 }
 
 .nav-link:hover, a:hover {
-    color: #5AD767;
+    color: var(--brand-palette1);
 }
 
 .socials, .fa-brands {
-    color: #6FB07E;
+    color: var(--brand-palette3);
 }
 
 #pfp {
@@ -90,7 +94,7 @@ section {
 #sig {
     font-family: 'Shadows Into Light', serif;
     text-align: left;
-    color: #5AD767;
+    color: var(--brand-palette1);
     font-style: italic;
     letter-spacing: 0.2cap;
 }
@@ -104,7 +108,7 @@ section {
 }
 
 #certs .btn:hover {
-    background-color: #5AD767 !important;
+    background-color: var(--brand-palette1) !important;
 }
 
 .codecademy {
@@ -133,7 +137,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #DBFCE7 !important;
+    color: var(--brand-palette4) !important;
     text-transform: uppercase;
     background-color: rgb(39, 46, 54, 0.7);
     text-transform: none;
@@ -154,7 +158,7 @@ section {
     object-fit: cover;
     object-position: 0% 0%;
     height: 30vh;
-    background-color: #838995;
+    background-color: var(--brand-palette2);
 }
 
 .card-img-left {
@@ -162,7 +166,7 @@ section {
 }
 
 .card-title, .cert-text {
-    color: #DBFCE7 !important;
+    color: var(--brand-palette4) !important;
 }
 
 #contact, #bio {
@@ -184,7 +188,7 @@ section {
     content: '';
     position: absolute;
     left: 0px;
-    background: linear-gradient(45deg, #5AD767, #838995, #444444, #6FB07E);
+    background: linear-gradient(45deg, var(--brand-palette1), var(--brand-palette2), #444444, var(--brand-palette3));
     background-size: 400%;
     width: calc(100%);
     height: calc(100% + 2px);
@@ -208,7 +212,7 @@ section {
 
   .btn-dark {
     background-color: rgb(39, 46, 54, 0.7) !important;
-    color: #5AD767 !important;
+    color: var(--brand-palette1) !important;
     font-size: 1rem !important;
     border: none;
 }

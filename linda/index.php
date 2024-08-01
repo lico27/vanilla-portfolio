@@ -1,17 +1,25 @@
 <?php
-echo "The TFL.org-approved Linda Cardellini fanlisting: coming soon!";
+require_once('header.php');
 ?>
 
-<!-- linda
-adjective (Spanish)
-/ˈlin.da/
+    <h2>Welcome</h2>
 
-1. Pretty: Attractively pleasing in a delicate or charming way. 
+    <p>The TFL.org-approved Linda Cardellini fanlisting: coming soon!</p>
 
-cardellini
-noun (Italian)
-/kar.delˈliː.ni/
+<?php
+include 'config.php';
+include ENTH_PATH . 'show_stats.php';
 
-1. Goldfinches: Small passerine birds belonging to the finch family, known for their bright plumage and melodic songs.
+require_once('footer.php');
 
--->
+// linda
+// adjective (Spanish)
+// /ˈlin.da/
+
+// 1. Pretty: Attractively pleasing in a delicate or charming way. 
+
+// cardellini
+// noun (Italian)
+// /kar.delˈliː.ni/
+
+// 1. Goldfinches: Small passerine birds belonging to the finch family, known for their bright plumage and melodic songs.

@@ -1,5 +1,9 @@
 * {
     border: 1px solid #000;
+    --color-1: #226769;
+    --color-2: #7fbabc;
+    --color-3: #1d3332;
+    color: var(--color-1);
 }
 
 #hero, #intro {
@@ -9,4 +13,5 @@
 
 #intro {
     margin: 0 auto;
+    
 }

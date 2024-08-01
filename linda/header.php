@@ -29,57 +29,68 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
   rel="stylesheet"
 />
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- <link rel="icon" type="image/x-icon" href="./assets/img/favicon1.ico"> -->
-    <title>Linda Cardellini // Fanlisting</title>
+    <title>Linda Cardellini // The Fanlisting</title>
 </head> 
 
 <body>
 
 <header>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-body">
+  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
     <div class="container-fluid">
+      <!-- Toggle button -->
       <button
         data-mdb-collapse-init
         class="navbar-toggler"
         type="button"
-        data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01"
+        data-mdb-target="#navbarCentered"
+        aria-controls="navbarCentered"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
+  
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCentered"
+      >
+        <!-- Left links -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Codes</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Navbar -->
 
-  <!-- Jumbotron -->
-  <div class="p-5 text-center bg-body-tertiary">
-    <h1 class="mb-3">Heading</h1>
-    <h4 class="mb-3">Subheading</h4>
-    <a data-mdb-ripple-init class="btn btn-primary" href="" role="button">Call to action</a>
+  <!-- Hero -->
+  <div class="p-5 text-center bg-body-tertiary col-md-8 col-lg-6 d-flex" id="hero">
+    <h1 class="mb-3">Pretty Goldfinches</h1>
+    <h4 class="mb-3">The Linda Cardellini Fanlisting</h4>
+    <!-- <a data-mdb-ripple-init class="btn btn-primary" href="" role="button">Call to action</a> -->
   </div>
-  <!-- Jumbotron -->
 </header>
 
+<section id="intro" class="col-md-8 col-lg-6">
+Text goes here
 
 <!-- <div style="text-align: center; margin: auto; font-weight: bold;">
 <a href="index.php">Index</a> &bull;
@@ -91,8 +102,4 @@
 <a href="affiliates.php">Affiliates</a>
 </div> -->
 
-<!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
-></script>
+

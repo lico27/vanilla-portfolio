@@ -2,7 +2,7 @@
 require_once('header.php');
 ?>
 
-    <h2>Welcome</h2>
+    <h3>Welcome</h3>
 
     <p>The TFL.org-approved Linda Cardellini fanlisting: coming soon!</p>
 

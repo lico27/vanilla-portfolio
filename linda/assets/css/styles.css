@@ -1,17 +1,21 @@
 * {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     --color-1: #226769;
     --color-2: #7fbabc;
     --color-3: #1d3332;
     color: var(--color-1);
 }
 
-#hero, #intro {
-    margin: 0 auto;
+body, header {
     flex-direction: column;
+    align-items: center;
 }
 
-#intro {
-    margin: 0 auto;
-    
+navbar {
+    justify-content: space-evenly;
+}
+
+#content {
+    min-height: 50vh;
+    flex-direction: column;
 }

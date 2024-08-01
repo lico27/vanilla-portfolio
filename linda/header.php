@@ -43,7 +43,7 @@
 </header>
 
   <!-- Content -->
-<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-2">
+<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-2 mb-5">
   <div><h3>Text goes here</h3></div>
 
 <!-- <div style="text-align: center; margin: auto; font-weight: bold;">

@@ -35,10 +35,26 @@ navbar {
 
 a {
     color: var(--color-1);
+    font-weight: bold;
 }
 
 a:hover {
     font-weight: bold;
-    color: var(--color-3);
     border-bottom: var(--color-3) 1px dashed;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.about-section {
+    text-align: justify;
+    border-top: 1px var(--color-1) dotted;
+    border-bottom: 1px var(--color-1) dotted;
+
+}
+
+.icons:hover {
+    border: 0;
+    color: var(--color-2);
 }

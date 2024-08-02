@@ -2,9 +2,13 @@
 require_once('header.php');
 ?>
 
-    <h3>Welcome</h3>
+    <h3>Welcome...</h3>
 
-    <p>The TFL.org-approved Linda Cardellini fanlisting: coming soon!</p>
+<?php
+echo "...to the TFL.org-approved Linda Cardellini fanlisting!<br><br>";
+?>
+
+
 
 <?php
 include 'config.php';

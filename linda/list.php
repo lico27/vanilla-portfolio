@@ -2,7 +2,7 @@
 require_once('header.php');
 ?>
 
-    <h1>Listed Fans</h1>
+    <h3>Listed Fans</h3>
 
 <?php
 include 'config.php';

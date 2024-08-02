@@ -2,7 +2,7 @@
 require_once('header.php');
 ?>
 
-    <h1>Join the Fanlisting</h1>
+    <h3>Join the Fanlisting</h3>
 
 <?php
 include 'config.php';

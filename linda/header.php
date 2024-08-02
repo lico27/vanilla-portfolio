@@ -29,8 +29,8 @@
 <header class="d-flex col-12">
 
 <navbar class="d-flex col-10 col-md-8 col-lg-6 col-xl-5 p-3 mt-1">
-     <div class="navlink">Home</div>
-     <div class="navlink">About</div>
+     <a href="./index.php"><div class="navlink">Home</div></a>
+     <a href="./about.php"><div class="navlink">About</div></a>
      <a href="./join.php"><div class="navlink">Join</div></a>
      <div class="navlink">Members</div>
      <div class="navlink">Codes</div>

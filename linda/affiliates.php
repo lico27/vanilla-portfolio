@@ -2,7 +2,11 @@
 require_once('header.php');
 ?>
 
-    <h1>Fanlisting Affiliates</h1>
+    <h3>Fanlisting Affiliates</h3>
+
+<?php
+echo "";
+?>
 
 <?php
 include 'config.php';

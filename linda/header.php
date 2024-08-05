@@ -34,6 +34,7 @@
     <a href="./join.php"><div class="navlink">Join</div></a>
     <a href="./list.php"><div class="navlink">Members</div></a>
     <a href="./codes.php"><div class="navlink">Codes</div></a>
+    <!-- <a href="./affiliates.php"><div class="navlink">Affiliates</div></a> -->
 </navbar>
 
   <!-- Hero -->
@@ -43,6 +44,7 @@
 </header>
 
   <!-- Content -->
-<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-4 mb-5">
+<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-2 mb-5">
+
 
 

@@ -16,7 +16,8 @@ include 'config.php';
 include ENTH_PATH . 'show_stats.php';
 ?>
 
-<?= '<div style="font-size: 0.8rem; text-align: center"><em>Disclaimer: I am not Linda Cardellini and I am not affiliated with her in any way. This is a fan-made project and no copyright infringement is intended.</em></div>'?>
+<?= '<div style="font-size: 0.8rem; text-align: center; margin-bottom: 5px"><em>Disclaimer: I am not Linda Cardellini and I am not affiliated with her in any way. This is a fan-made project and no copyright infringement is intended.</em></div>'?>
+<?= '<div style="font-size: 0.8rem; text-align: center"><a href="https://netflixqueue.com/linda-cardellini-not-looking-back" target="blank">Image credit</a></div>'?>
 
 
 <?php

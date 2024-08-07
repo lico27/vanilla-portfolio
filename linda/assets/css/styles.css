@@ -25,6 +25,7 @@ navbar {
     border-left: 1px solid var(--color-2);
     border-right: 1px solid var(--color-2);
     background-color: var(--color-4);
+    max-height: 500px;
 }
 
 #hero-img {

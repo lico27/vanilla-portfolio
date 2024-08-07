@@ -20,7 +20,7 @@
   rel="stylesheet"
 />
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <!-- <link rel="icon" type="image/x-icon" href="./assets/img/favicon1.ico"> -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
     <title>Linda Cardellini // The Fanlisting</title>
 </head> 
 
@@ -28,7 +28,7 @@
 
 <header class="d-flex col-12">
 
-  <navbar class="d-flex col-10 col-md-8 col-lg-6 col-xl-5 p-3 mt-1">
+  <navbar class="d-flex col-12 col-md-8 col-lg-6 col-xl-5 p-3 mt-1">
     <a href="./index.php"><div class="navlink">Home</div></a>
     <a href="./about.php"><div class="navlink">About</div></a>
     <a href="./join.php"><div class="navlink">Join</div></a>
@@ -38,13 +38,13 @@
 </navbar>
 
   <!-- Hero -->
-  <div class="text-center col-10 col-md-8 col-lg-6 col-xl-5 d-flex" id="hero"> 
+  <div class="text-center col-12 col-md-8 col-lg-6 col-xl-5" id="hero"> 
     <img src="./assets/img/head1.png" id="hero-img">
   </div> 
 </header>
 
   <!-- Content -->
-<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-3 mb-5">
+<section id="content" class="col-12 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-3 mb-5">
 
 
 

@@ -24,8 +24,11 @@ navbar {
 #hero {
     border-left: 1px solid var(--color-2);
     border-right: 1px solid var(--color-2);
-    min-height: 40vh;
     background-color: var(--color-4);
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #content {

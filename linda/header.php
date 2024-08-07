@@ -44,7 +44,7 @@
 </header>
 
   <!-- Content -->
-<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-2 mb-5">
+<section id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex py-3 px-4 mb-5">
 
 
 

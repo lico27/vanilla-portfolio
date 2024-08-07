@@ -3,8 +3,10 @@
     --color-1: #226769;
     --color-2: #7fbabc;
     --color-3: #1d3332;
+    --color-4: #c9d6cf;
     color: var(--color-1);
     font-family: "DM Sans";
+
 }
 
 body, header {
@@ -23,6 +25,7 @@ navbar {
     border-left: 1px solid var(--color-2);
     border-right: 1px solid var(--color-2);
     min-height: 40vh;
+    background-color: var(--color-4);
 }
 
 #content {

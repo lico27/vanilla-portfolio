@@ -158,7 +158,11 @@ section {
     object-fit: cover;
     object-position: 0% 0%;
     height: 30vh;
-    background-color: var(--brand-palette2);
+    background-color:none;
+}
+
+.card-linda {
+    background-color: #c9d6cf;
 }
 
 .card-img-left {

@@ -4,8 +4,9 @@ require_once('header.php');
 
     <h3>Welcome...</h3>
 
-    <?= '<p style="margin-bottom: 5px">...to <em>Pretty Goldfinches</em>, the only TheFanlistings.Org-approved Fanlisting for the actor Linda Cardellini!</p>'?>
-    <?= '<p style="margin-bottom: 10px">This Fanlisting is owned by <a href="https://liamco.io/" target="_blank">Liam</a>.</p>'?>
+    <?= '<p style="margin: 0px">...to <em>Pretty Goldfinches</em>, the only <a href="https://thefanlistings.org/" target="_blank">TFL.Org</a>-approved Fanlisting for the actor Linda Cardellini.</p>'?>
+    <?= '<p style="margin: 0px">Anyone can join so - welcome! Use the links above to find your way around.</p>'?>
+    <?= '<p style="margin: 0 0 10px 0">This Fanlisting is owned by <a href="https://liamco.io/" target="_blank">Liam</a>.</p>'?>
 
 <?php
 include 'config.php';

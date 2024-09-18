@@ -1,8 +1,6 @@
-# liamco.io
+# Old portfolio
 
-Building my personal portfolio website 
-
-https://liamco.io
+v1.0
 
 ## Badges
-![Static Badge](https://img.shields.io/badge/project-in_progress-blue)
+![Static Badge](https://img.shields.io/badge/project-deprecated-red)
